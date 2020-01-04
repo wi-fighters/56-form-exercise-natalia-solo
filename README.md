@@ -12,6 +12,8 @@ Keep a browser window open alongside your code as you go.
 
 ## Part 2: Delivery address
 
+### Text inputs
+
 1. Create an `input` element. Give it the following attributes:
     - `type` attribute with the value `text`
     - `id` attribute with the value `first` (`id` will be used by the `for` attribute of the `label` element in the next step)
@@ -46,3 +48,40 @@ Keep a browser window open alongside your code as you go.
 
 5. Copy the pattern above to create form fields for `street` `number` and `city`. For placeholders, you can use `Evergreen Terrace`, `742` and `Springfield` respectively.
 
+### Providing multiple options
+
+Both ways are worth knowing. They each have their pros and cons.
+
+#### Alternative 1: Using a text input with a datalist
+
+Pros: Allows typing for improved UX.
+Cons: Support is limited. No grouping possible yet
+
+6. Using the same pattern as above, create a text input wrapped in a label. Change the following:
+
+    - on the `input` element:
+        - `id` value becomes `state`
+        - `name` value becomes `state`
+        - `placeholder` value becomes `Oregon`
+        - add a new attribute `list` with a value of `states` (this will match the `id` of our datalist)
+    - on the `label` element:
+        - `for` becomes `state` (to match the `id` we just changed)
+        - Label text becomes `State&nbsp;/&nbsp;Region` (after the label's opening tag)
+
+7. Add a `datalist` element with an `id` of `states` (should match the `list` attribute of your `input` element above)
+
+Nested between the `datalist` tags, define the following `option` elements:
+
+- `California` (value of `CA`)
+- `Colorado` (value of `CO`)
+- `Louisiana` (value of `LA`)
+- `New York` (value of `NY`)
+- `Oregon` (value of `OR`)
+- `Texas` (value of `TX`)
+
+Follow this format for all options:
+
+```html
+<option value="CA">California</option>
+<option value="CO">Colorado</option>
+```
