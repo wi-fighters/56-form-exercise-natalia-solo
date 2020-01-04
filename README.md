@@ -85,3 +85,36 @@ Follow this format for all options:
 <option value="CA">California</option>
 <option value="CO">Colorado</option>
 ```
+
+#### Alternative 2: Using a select element
+
+Pros: Widely supported, allows grouping.
+Cons: Poor UX when typing.
+
+8. Create a `select` element with an `id` of `country`.
+
+9. Wrap your `select` element with a `label`. The label's `for` attribute should be `country` (to match the `id` of the `select` element). Inside the opening label tag, the label's text should be `Country`.
+
+So far it should look like this:
+
+```html
+<label for="country">Country
+    <select id="country">
+    </select>
+</label>
+```
+
+10. Inside the `select` element, create three empty `optgroup` elements. Give each of them a `label` attribute, with the values `Asia`, `Europe` and `North America`.
+
+Nested between the corresponding `optgroup` tags, define the following `option` elements:
+
+- `Thailand` (value of `TH`)
+- `Japan` (value of `JP`)
+- `France` (value of `FR`)
+- `Germany` (value of `DE`)
+- `Canada` (value of `CA`)
+- `United States` (value of `US`)
+
+11. To provide an empty default option, create a new `optgroup` with a label attribute of `None`. We don't want the user to be able to select it, so add the empty attribute `disabled`.
+
+12. Inside this new `optgroup` add an `option` with the text `-- choose one --` and set the `value` attribute to `default`. Also set the following empty attributes to the `option`: `selected`, `disabled` and `hidden`.
