@@ -133,3 +133,5 @@ We're going to separate both addresses with `fieldset` elements, so the first st
     </fieldset>
 </form>
 ```
+
+14. Add a second fieldset in the same form. This time give it a `legend` of `Billing Address`.
