@@ -46,7 +46,7 @@ Keep a browser window open alongside your code as you go.
         - `for` becomes `company` (to match the `id` we just changed)
         - Label text becomes `Company` (after the label's opening tag)
 
-5. Copy the pattern above to create form fields for `street` `number` and `city`. For placeholders, you can use `Evergreen Terrace`, `742` and `Springfield` respectively.
+5. Copy the pattern above to create form fields for `street` `number`, `city` and `postcode`. For placeholders, you can use `Evergreen Terrace`, `742`, `Springfield` and `58008` respectively.
 
 ### Providing multiple options
 
