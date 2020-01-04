@@ -118,3 +118,18 @@ Nested between the corresponding `optgroup` tags, define the following `option` 
 11. To provide an empty default option, create a new `optgroup` with a label attribute of `None`. We don't want the user to be able to select it, so add the empty attribute `disabled`.
 
 12. Inside this new `optgroup` add an `option` with the text `-- choose one --` and set the `value` attribute to `default`. Also set the following empty attributes to the `option`: `selected`, `disabled` and `hidden`.
+
+## Part 3: Billing address
+
+We're going to separate both addresses with `fieldset` elements, so the first steps to adding the billing address will be to prepare the delivery address.
+
+13. Wrap all the above elements in a `fieldset` element (except the submit button). Nest a `legend` element as the first child of your new `fieldset`, and give it the text `Delivery Address`. The result should look like this:
+
+```html
+<form action="#">
+    <fieldset>
+        <legend>Delivery Address</legend>
+        <!-- your form fields here -->
+    </fieldset>
+</form>
+```
