@@ -22,7 +22,7 @@ Keep a browser window open alongside your code as you go.
 
 ```html
 <label for="first">First name
-    <input type="text" id="first" name="first" placeholder="Kenny">
+    <input type="text" id="first" name="first" placeholder="Maggie">
 </label>
 ```
 
@@ -30,7 +30,7 @@ Keep a browser window open alongside your code as you go.
     - on the `input` element:
         - `id` value becomes `last`
         - `name` value becomes `last`
-        - `placeholder` value becomes `McCormick`
+        - `placeholder` value becomes `Simpson`
     - on the `label` element:
         - `for` becomes `last` (to match the `id` we just changed)
         - Label text becomes `Last name` (after the label's opening tag)
@@ -39,8 +39,7 @@ Keep a browser window open alongside your code as you go.
     - on the `input` element:
         - `id` value becomes `company`
         - `name` value becomes `company`
-        - `placeholder` value becomes `South Park Elementary`
+        - `placeholder` value becomes `The Simpsons`
     - on the `label` element:
         - `for` becomes `company` (to match the `id` we just changed)
         - Label text becomes `Company` (after the label's opening tag)
-
