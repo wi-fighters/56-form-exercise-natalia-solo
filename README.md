@@ -2,6 +2,8 @@
 
 In this example, we'll create a form that a customer can use to update their delivery and billing addresses.
 
+Keep a browser window open alongside your code as you go.
+
 ## Part 1: Form structure
 
 1. Create a `form` element. Give it an `action` attribute with a value of `#`.
@@ -23,3 +25,12 @@ In this example, we'll create a form that a customer can use to update their del
     <input type="text" id="first" name="first" placeholder="Kenny">
 </label>
 ```
+
+3. To make the last name field, copy the above (label and input). Update the following:
+    - on the `input` element:
+        - `id` value becomes `last`
+        - `name` value becomes `last`
+        - `placeholder` value becomes `McCormick`
+    - on the `label` element:
+        - `for` becomes `last` (to match the `id` we just changed)
+        - Label text becomes `Last name` (after the label's opening tag)
