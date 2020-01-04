@@ -34,3 +34,13 @@ Keep a browser window open alongside your code as you go.
     - on the `label` element:
         - `for` becomes `last` (to match the `id` we just changed)
         - Label text becomes `Last name` (after the label's opening tag)
+
+4. To make the company field, copy the above (label and input). Update the following:
+    - on the `input` element:
+        - `id` value becomes `company`
+        - `name` value becomes `company`
+        - `placeholder` value becomes `South Park Elementary`
+    - on the `label` element:
+        - `for` becomes `company` (to match the `id` we just changed)
+        - Label text becomes `Company` (after the label's opening tag)
+
