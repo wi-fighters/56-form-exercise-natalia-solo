@@ -214,3 +214,7 @@ label:not(:last-of-type) {
     margin-right: 1ch;
 }
 ```
+
+11. Update your existing ruleset for `input` and `select` elements to remove all borders and set their height to `2rem`. Also set a `margin-top` of `0.3rem`.
+
+12. To all `input` elements, apply a `border-radius` of `0.3rem` and a `padding` of `1ch`.
