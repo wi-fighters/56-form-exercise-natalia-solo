@@ -190,3 +190,14 @@ html {
     padding: 1rem 2rem 3rem;
 }
 ```
+
+9. Add the following style to both fieldsets:
+
+```css
+fieldset {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px dotted #321313;
+    border-radius: 0.3rem;
+}
+```
