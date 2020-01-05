@@ -232,3 +232,19 @@ label:not(:last-of-type) {
 12. Update your existing ruleset for `input` and `select` elements to remove all borders and set their height to `2rem`. Also set a `margin-top` of `0.3rem`.
 
 13. To all `input` elements, apply a `border-radius` of `0.3rem` and a `padding` of `1ch`.
+
+## Bonus
+
+- How would you mark certain fields as required? Consider both the code and the visual cues.
+
+- Notice how field sizes are no longer full-width when wrapped to a single-column. Find out what's causing it and wrap it in a media query so it's only enabled for larger devices.
+
+- How would you improve this form for usability? For aesthetic?
+
+## More forms
+
+Use what you've learned to build other kinds of forms:
+
+- login (research password fields and a checkbox to stay logged in)
+- quiz game
+- order details (e.g. pizza toppings, clothing color and size, etc.)
