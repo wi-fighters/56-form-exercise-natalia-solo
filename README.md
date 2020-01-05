@@ -171,3 +171,22 @@ We're going to separate both addresses with `fieldset` elements, so the first st
 - Set `flex-shrink` to `0`.
 - Indicate when to start wrapping by defining a `flex-basis` of `15rem`.
 - Experiment with each of these to understand how they affect the layout. Then when you're ready, condense them into **one shorthand property** instead of three.
+
+### Stylistic details
+
+8. Set the following styles on the big layout elements:
+
+```css
+html {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5f0;
+    color: #321313;
+}
+
+.form-container {
+    /* add these properties to your existing ruleset */
+    background-color: #f2ead3;
+    border-radius: 1rem;
+    padding: 1rem 2rem 3rem;
+}
+```

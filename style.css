@@ -1,6 +1,15 @@
+html {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5f0;
+    color: #321313;
+}
+
 .form-container {
     max-width: 40rem;
     margin: 0 auto;
+    background-color: #f2ead3;
+    border-radius: 1rem;
+    padding: 1rem 2rem 3rem;
 }
 
 .inline-container {
