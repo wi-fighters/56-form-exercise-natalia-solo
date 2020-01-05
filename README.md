@@ -6,9 +6,11 @@ Keep a browser window open alongside your code as you go.
 
 ## Part 1: Form structure
 
-1. Create a `form` element. Give it an `action` attribute with a value of `#`.
+1. Create an appropriate-level heading to describe your form. Call it `Update Addresses`.
 
-2. Create an `input` element. Give it a `type` attribute with the value `submit`, and a `value` attribute with the value `Update addresses`. This element should stay at the end of the form.
+2. Create a `form` element. Give it an `action` attribute with a value of `#`.
+
+3. Create an `input` element. Give it a `type` attribute with the value `submit`, and a `value` attribute with the value `Update addresses`. This element should stay at the end of the form.
 
 ## Part 2: Delivery address
 
@@ -123,7 +125,7 @@ Nested between the corresponding `optgroup` tags, define the following `option` 
 
 We're going to separate both addresses with `fieldset` elements, so the first steps to adding the billing address will be to prepare the delivery address.
 
-13. Wrap all the above elements in a `fieldset` element (except the submit button). Nest a `legend` element as the first child of your new `fieldset`, and give it the text `Delivery Address`. The result should look like this:
+1. Wrap all the above elements in a `fieldset` element (except the submit button). Nest a `legend` element as the first child of your new `fieldset`, and give it the text `Delivery Address`. The result should look like this:
 
 ```html
 <form action="#">
@@ -134,17 +136,17 @@ We're going to separate both addresses with `fieldset` elements, so the first st
 </form>
 ```
 
-14. Add a second fieldset in the same form. This time give it a `legend` of `Billing Address`.
+2. Add a second fieldset in the same form. This time give it a `legend` of `Billing Address`.
 
-15. Copy in the fields from the previous example. **Use your judgment to decide** what you will need to change in your existing code so that your `id` and `name` attributes remain unique. E.g. `deliveryStreet` and `billingStreet`. Do this for all applicable fields.
+3. Copy in the fields from the previous example. **Use your judgment to decide** what you will need to change in your existing code so that your `id` and `name` attributes remain unique. E.g. `deliveryStreet` and `billingStreet`. Do this for all applicable fields.
 
-16. Consider, what could you do to make your `datalist` implementation more DRY?
+4. Consider, what could you do to make your `datalist` implementation more DRY?
 
 ## Part 4: Responsive styling
 
-Let's start with big-picture layout.
+### Big-picture layout
 
-17. First, create some containers for the elements that we want to appear inline. Add a `div` with the class `inline-container` around the following pairs of elements (in both fieldsets):
+1. First, create some containers for the elements that we want to appear inline. Add a `div` with the class `inline-container` around the following pairs of elements (in both fieldsets):
 
 - first + last name
 - street + number
@@ -153,13 +155,13 @@ Let's start with big-picture layout.
 
 **When adding containers, remember to double-check your indentation**
 
-18. Link to [normalize.css](https://necolas.github.io/normalize.css/8.0.1/normalize.css) and also start your own style sheet.
+2. Link to [normalize.css](https://necolas.github.io/normalize.css/8.0.1/normalize.css) and also start your own style sheet.
 
-19. With one ruleset (one pair of curly braces), target the `input` and `select` elements and give them a `width` of `100%`.
+3. With one ruleset (one pair of curly braces), target the `input` and `select` elements and give them a `width` of `100%`.
 
-20. Make every `.inline-container` a flex container. **Use one shorthand property** to define a `flex-direction` of `row` and a `flex-wrap` of `wrap`.
+4. Make every `.inline-container` a flex container. **Use one shorthand property** to define a `flex-direction` of `row` and a `flex-wrap` of `wrap`.
 
-21. Choose a selector that targets **all descendants of your flex containers** and apply the following styles:
+5. Choose a selector that targets **all descendants of your flex containers** and apply the following styles:
 
 - Set `flex-grow` to equally distribtue available space.
 - Set `flex-shrink` to `0`.
