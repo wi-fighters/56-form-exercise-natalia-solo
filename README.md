@@ -10,7 +10,7 @@ Keep a browser window open alongside your code as you go.
 
 2. Create a `form` element. Give it an `action` attribute with a value of `#`.
 
-3. Create an `input` element. Give it a `type` attribute with the value `submit`, and a `value` attribute with the value `Update addresses`. This element should stay at the end of the form.
+3. Create an `input` element. Give it a `type` attribute with the value `submit`, and a `value` attribute with the value `Update Address Details`. This element should stay at the end of the form.
 
 ## Part 2: Delivery address
 
