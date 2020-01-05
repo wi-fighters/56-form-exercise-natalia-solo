@@ -150,7 +150,7 @@ We're going to separate both addresses with `fieldset` elements, so the first st
 
 **When adding containers, remember to carefully adjust your indentation**
 
-2. Give your `.form-container` a `max-width` of `35rem` and apply a `margin` that will automatically center it horizontally.
+2. Give your `.form-container` a `max-width` of `40rem` and apply a `margin` that will automatically center it horizontally.
 
 3. Create some more containers (and adjust indentation) for the elements that we want to appear inline. Add a `div` with the class `inline-container` around the following pairs of elements (in both fieldsets):
 
