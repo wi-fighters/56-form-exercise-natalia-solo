@@ -174,7 +174,21 @@ We're going to separate both addresses with `fieldset` elements, so the first st
 
 ### Stylistic details
 
-8. Set the following styles on the big layout elements:
+8. Improve UX by giving feedback to users when they interact with the `submit` button. Target it using an **attribute selector** and apply the following styles:
+
+```css
+/* all states */
+cursor: pointer;
+transition: 0.2s ease-out;
+
+/* hover state */
+transform: scaleX(1.03) scaleY(1.1);
+
+/* active state */
+background-color: #dfd1a7;
+```
+
+9. Set the following styles on the big layout elements:
 
 ```css
 html {
@@ -191,7 +205,7 @@ html {
 }
 ```
 
-9. Add the following style to both fieldsets:
+10. Add the following style to both fieldsets:
 
 ```css
 fieldset {
@@ -202,7 +216,7 @@ fieldset {
 }
 ```
 
-10. Adjust the spacing around elements by adding the following label styles:
+11. Adjust the spacing around elements by adding the following label styles:
 
 ```css
 label {
@@ -215,6 +229,6 @@ label:not(:last-of-type) {
 }
 ```
 
-11. Update your existing ruleset for `input` and `select` elements to remove all borders and set their height to `2rem`. Also set a `margin-top` of `0.3rem`.
+12. Update your existing ruleset for `input` and `select` elements to remove all borders and set their height to `2rem`. Also set a `margin-top` of `0.3rem`.
 
-12. To all `input` elements, apply a `border-radius` of `0.3rem` and a `padding` of `1ch`.
+13. To all `input` elements, apply a `border-radius` of `0.3rem` and a `padding` of `1ch`.

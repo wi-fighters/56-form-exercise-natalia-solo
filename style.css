@@ -52,3 +52,17 @@ input {
     border-radius: 0.3rem;
     padding: 1ch;
 }
+
+input[type="submit"] {
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+input[type="submit"]:hover {
+    transform: scaleX(1.03) scaleY(1.1);
+}
+
+input[type="submit"]:active {
+    background-color: #dfd1a7;
+    
+}
