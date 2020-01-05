@@ -150,3 +150,5 @@ We're going to separate both addresses with `fieldset` elements, so the first st
 - state + country
 
 **When adding containers, remember to double-check your indentation**
+
+18. Link to [normalize.css](https://necolas.github.io/normalize.css/8.0.1/normalize.css) and also start your own style sheet.
