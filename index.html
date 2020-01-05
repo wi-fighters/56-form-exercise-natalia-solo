@@ -10,139 +10,141 @@
 </head>
 <body>
     <h1>Form</h1>
-    <h2>Update Addresses</h2>
-    <form action="#">
-        <fieldset>
-            <legend>Delivery Address</legend>
-            <div class="inline-container">
-                <label for="deliveryFirst">First name
-                    <input type="text" id="deliveryFirst" name="deliveryirst" placeholder="Maggie">
-                </label>
-                <label for="deliveryLast">Last name
-                    <input type="text" id="deliveryLast" name="deliveryLast" placeholder="Simpson">
-                </label>
-            </div><!-- .inline-container -->
+    <div class="form-container">
+        <h2>Update Addresses</h2>
+        <form action="#">
+            <fieldset>
+                <legend>Delivery Address</legend>
+                <div class="inline-container">
+                    <label for="deliveryFirst">First name
+                        <input type="text" id="deliveryFirst" name="deliveryirst" placeholder="Maggie">
+                    </label>
+                    <label for="deliveryLast">Last name
+                        <input type="text" id="deliveryLast" name="deliveryLast" placeholder="Simpson">
+                    </label>
+                </div><!-- .inline-container -->
 
-            <label for="deliveryCompany">Company
-                <input type="text" id="deliveryCompany" name="deliveryCompany" placeholder="The Simpsons">
-            </label>
-
-            <div class="inline-container">
-                <label for="deliveryStreet">Street
-                    <input type="text" id="deliveryStreet" name="deliveryStreet" placeholder="Evergreen Terrace">
-                </label>
-                <label for="deliveryNumber">Number
-                    <input type="text" id="deliveryNumber" name="deliveryNumber" placeholder="742">
-                </label>
-            </div><!-- .inline-container -->
-
-            <div class="inline-container">
-                <label for="deliveryCity">City
-                    <input type="text" id="deliveryCity" name="deliveryCity" placeholder="Springfield">
-                </label>
-                <label for="deliveryPostcode">Postcode
-                    <input type="text" id="deliveryPostcode" name="deliveryPostcode" placeholder="58008">
-                </label>
-            </div><!-- .inline-container -->
-
-            <div class="inline-container">
-                <label for="deliveryState">State&nbsp;/&nbsp;Region
-                    <input type="text" id="deliveryState" name="deliveryState" placeholder="Oregon" list="states">
+                <label for="deliveryCompany">Company
+                    <input type="text" id="deliveryCompany" name="deliveryCompany" placeholder="The Simpsons">
                 </label>
 
-                <label for="deliveryCountry">Country
-                    <select id="deliveryCountry">
-                        <optgroup label="None" disabled>
-                            <option value="default" selected disabled hidden> -- choose one --</option>
-                        </optgroup>
-                        <optgroup label="Asia">
-                            <option value="TH">Thailand</option>
-                            <option value="JP">Japan</option>
-                        </optgroup>
-                        <optgroup label="Europe">
-                            <option value="FR">France</option>
-                            <option value="DE">Germany</option>
-                        </optgroup>
-                        <optgroup label="North America">
-                            <option value="CA">Canada</option>
-                            <option value="US">United States</option>
-                        </optgroup>
-                    </select>
-                </label>
-            </div><!-- .inline-container -->
-        </fieldset>
+                <div class="inline-container">
+                    <label for="deliveryStreet">Street
+                        <input type="text" id="deliveryStreet" name="deliveryStreet" placeholder="Evergreen Terrace">
+                    </label>
+                    <label for="deliveryNumber">Number
+                        <input type="text" id="deliveryNumber" name="deliveryNumber" placeholder="742">
+                    </label>
+                </div><!-- .inline-container -->
 
-        <fieldset>
-            <legend>Billing Address</legend>
+                <div class="inline-container">
+                    <label for="deliveryCity">City
+                        <input type="text" id="deliveryCity" name="deliveryCity" placeholder="Springfield">
+                    </label>
+                    <label for="deliveryPostcode">Postcode
+                        <input type="text" id="deliveryPostcode" name="deliveryPostcode" placeholder="58008">
+                    </label>
+                </div><!-- .inline-container -->
 
-            <div class="inline-container">
-                <label for="billingFirst">First name
-                    <input type="text" id="billingFirst" name="billingirst" placeholder="Maggie">
-                </label>
-                <label for="billingLast">Last name
-                    <input type="text" id="billingLast" name="billingLast" placeholder="Simpson">
-                </label>
-            </div><!-- .inline-container -->
+                <div class="inline-container">
+                    <label for="deliveryState">State&nbsp;/&nbsp;Region
+                        <input type="text" id="deliveryState" name="deliveryState" placeholder="Oregon" list="states">
+                    </label>
 
-            <label for="billingCompany">Company
-                <input type="text" id="billingCompany" name="billingCompany" placeholder="The Simpsons">
-            </label>
+                    <label for="deliveryCountry">Country
+                        <select id="deliveryCountry">
+                            <optgroup label="None" disabled>
+                                <option value="default" selected disabled hidden> -- choose one --</option>
+                            </optgroup>
+                            <optgroup label="Asia">
+                                <option value="TH">Thailand</option>
+                                <option value="JP">Japan</option>
+                            </optgroup>
+                            <optgroup label="Europe">
+                                <option value="FR">France</option>
+                                <option value="DE">Germany</option>
+                            </optgroup>
+                            <optgroup label="North America">
+                                <option value="CA">Canada</option>
+                                <option value="US">United States</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                </div><!-- .inline-container -->
+            </fieldset>
 
-            <div class="inline-container">
-                <label for="billingStreet">Street
-                    <input type="text" id="billingStreet" name="billingStreet" placeholder="Evergreen Terrace">
-                </label>
-                <label for="billingNumber">Number
-                    <input type="text" id="billingNumber" name="billingNumber" placeholder="742">
-                </label>
-            </div><!-- .inline-container -->
+            <fieldset>
+                <legend>Billing Address</legend>
 
-            <div class="inline-container">
-                <label for="billingCity">City
-                    <input type="text" id="billingCity" name="billingCity" placeholder="Springfield">
-                </label>
-                <label for="billingPostcode">Postcode
-                    <input type="text" id="billingPostcode" name="billingPostcode" placeholder="58008">
-                </label>
-            </div><!-- .inline-container -->
+                <div class="inline-container">
+                    <label for="billingFirst">First name
+                        <input type="text" id="billingFirst" name="billingirst" placeholder="Maggie">
+                    </label>
+                    <label for="billingLast">Last name
+                        <input type="text" id="billingLast" name="billingLast" placeholder="Simpson">
+                    </label>
+                </div><!-- .inline-container -->
 
-            <div class="inline-container">
-                <label for="billingState">State&nbsp;/&nbsp;Region
-                    <input type="text" id="billingState" name="billingState" placeholder="Oregon" list="states">
+                <label for="billingCompany">Company
+                    <input type="text" id="billingCompany" name="billingCompany" placeholder="The Simpsons">
                 </label>
 
-                <label for="billingCountry">Country
-                    <select id="billingCountry">
-                        <optgroup label="None" disabled>
-                            <option value="default" selected disabled hidden> -- choose one --</option>
-                        </optgroup>
-                        <optgroup label="Asia">
-                            <option value="TH">Thailand</option>
-                            <option value="JP">Japan</option>
-                        </optgroup>
-                        <optgroup label="Europe">
-                            <option value="FR">France</option>
-                            <option value="DE">Germany</option>
-                        </optgroup>
-                        <optgroup label="North America">
-                            <option value="CA">Canada</option>
-                            <option value="US">United States</option>
-                        </optgroup>
-                    </select>
-                </label>
-            </div><!-- .inline-container -->
-        </fieldset>
+                <div class="inline-container">
+                    <label for="billingStreet">Street
+                        <input type="text" id="billingStreet" name="billingStreet" placeholder="Evergreen Terrace">
+                    </label>
+                    <label for="billingNumber">Number
+                        <input type="text" id="billingNumber" name="billingNumber" placeholder="742">
+                    </label>
+                </div><!-- .inline-container -->
 
-        <datalist id="states">
-            <option value="CA">California</option>
-            <option value="CO">Colorado</option>
-            <option value="LA">Louisiana</option>
-            <option value="NY">New York</option>
-            <option value="OR">Oregon</option>
-            <option value="TX">Texas</option>
-        </datalist>
+                <div class="inline-container">
+                    <label for="billingCity">City
+                        <input type="text" id="billingCity" name="billingCity" placeholder="Springfield">
+                    </label>
+                    <label for="billingPostcode">Postcode
+                        <input type="text" id="billingPostcode" name="billingPostcode" placeholder="58008">
+                    </label>
+                </div><!-- .inline-container -->
 
-        <input type="submit" value="Update addresses">
-    </form>
+                <div class="inline-container">
+                    <label for="billingState">State&nbsp;/&nbsp;Region
+                        <input type="text" id="billingState" name="billingState" placeholder="Oregon" list="states">
+                    </label>
+
+                    <label for="billingCountry">Country
+                        <select id="billingCountry">
+                            <optgroup label="None" disabled>
+                                <option value="default" selected disabled hidden> -- choose one --</option>
+                            </optgroup>
+                            <optgroup label="Asia">
+                                <option value="TH">Thailand</option>
+                                <option value="JP">Japan</option>
+                            </optgroup>
+                            <optgroup label="Europe">
+                                <option value="FR">France</option>
+                                <option value="DE">Germany</option>
+                            </optgroup>
+                            <optgroup label="North America">
+                                <option value="CA">Canada</option>
+                                <option value="US">United States</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                </div><!-- .inline-container -->
+            </fieldset>
+
+            <datalist id="states">
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="LA">Louisiana</option>
+                <option value="NY">New York</option>
+                <option value="OR">Oregon</option>
+                <option value="TX">Texas</option>
+            </datalist>
+
+            <input type="submit" value="Update addresses">
+        </form>
+    </div><!-- .form-container -->
 </body>
 </html>

@@ -146,22 +146,26 @@ We're going to separate both addresses with `fieldset` elements, so the first st
 
 ### Big-picture layout
 
-1. First, create some containers for the elements that we want to appear inline. Add a `div` with the class `inline-container` around the following pairs of elements (in both fieldsets):
+1. On big screens, we'll want the form to be contained to one center column. For this we'll need a container around the `form` and its `heading`. Make this a `div` with a class of `form-container`.
+
+**When adding containers, remember to carefully adjust your indentation**
+
+2. Give your `.form-container` a `max-width` of `35rem` and apply a `margin` that will automatically center it horizontally.
+
+3. Create some more containers (and adjust indentation) for the elements that we want to appear inline. Add a `div` with the class `inline-container` around the following pairs of elements (in both fieldsets):
 
 - first + last name
 - street + number
 - city + postcode
 - state + country
 
-**When adding containers, remember to double-check your indentation**
+4. Link to [normalize.css](https://necolas.github.io/normalize.css/8.0.1/normalize.css) and also start your own style sheet.
 
-2. Link to [normalize.css](https://necolas.github.io/normalize.css/8.0.1/normalize.css) and also start your own style sheet.
+5. With one ruleset (one pair of curly braces), target the `input` and `select` elements and give them a `width` of `100%`.
 
-3. With one ruleset (one pair of curly braces), target the `input` and `select` elements and give them a `width` of `100%`.
+6. Make every `.inline-container` a flex container. **Use one shorthand property** to define a `flex-direction` of `row` and a `flex-wrap` of `wrap`.
 
-4. Make every `.inline-container` a flex container. **Use one shorthand property** to define a `flex-direction` of `row` and a `flex-wrap` of `wrap`.
-
-5. Choose a selector that targets **all descendants of your flex containers** and apply the following styles:
+7. Choose a selector that targets **all descendants of your flex containers** and apply the following styles:
 
 - Set `flex-grow` to equally distribtue available space.
 - Set `flex-shrink` to `0`.
