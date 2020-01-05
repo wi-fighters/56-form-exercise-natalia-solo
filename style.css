@@ -6,3 +6,7 @@ input, select {
     display: flex;
     flex-flow: row wrap;
 }
+
+.inline-container * {
+    flex: 1 0 15rem;
+}

@@ -158,3 +158,10 @@ Let's start with big-picture layout.
 19. With one ruleset (one pair of curly braces), target the `input` and `select` elements and give them a `width` of `100%`.
 
 20. Make every `.inline-container` a flex container. **Use one shorthand property** to define a `flex-direction` of `row` and a `flex-wrap` of `wrap`.
+
+21. Choose a selector that targets **all descendants of your flex containers** and apply the following styles:
+
+- Set `flex-grow` to equally distribtue available space.
+- Set `flex-shrink` to `0`.
+- Indicate when to start wrapping by defining a `flex-basis` of `15rem`.
+- Experiment with each of these to understand how they affect the layout. Then when you're ready, condense them into **one shorthand property** instead of three.
