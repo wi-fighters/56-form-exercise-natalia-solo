@@ -142,7 +142,9 @@ We're going to separate both addresses with `fieldset` elements, so the first st
 
 ## Part 4: Responsive styling
 
-17. Let's create some containers for the elements that we want to appear inline. Add a `div` with the class `inline-container` around the following pairs of elements (in both fieldsets):
+Let's start with big-picture layout.
+
+17. First, create some containers for the elements that we want to appear inline. Add a `div` with the class `inline-container` around the following pairs of elements (in both fieldsets):
 
 - first + last name
 - street + number
@@ -152,3 +154,5 @@ We're going to separate both addresses with `fieldset` elements, so the first st
 **When adding containers, remember to double-check your indentation**
 
 18. Link to [normalize.css](https://necolas.github.io/normalize.css/8.0.1/normalize.css) and also start your own style sheet.
+
+19. With one ruleset (one pair of curly braces), target the `input` and `select` elements and give them a `width` of `100%`.
