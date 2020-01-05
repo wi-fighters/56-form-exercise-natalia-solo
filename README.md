@@ -201,3 +201,16 @@ fieldset {
     border-radius: 0.3rem;
 }
 ```
+
+10. Adjust the spacing around elements by adding the following label styles:
+
+```css
+label {
+    display: block;
+    margin-top: 0.6rem;
+}
+
+label:not(:last-of-type) {
+    margin-right: 1ch;
+}
+```

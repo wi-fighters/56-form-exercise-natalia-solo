@@ -32,6 +32,15 @@ fieldset {
     flex: 1 0 15rem;
 }
 
+label {
+    display: block;
+    margin-top: 0.6rem;
+}
+
+label:not(:last-of-type) {
+    margin-right: 1ch;
+}
+
 input, select {
     width: 100%;
     height: 2rem;
