@@ -135,3 +135,7 @@ We're going to separate both addresses with `fieldset` elements, so the first st
 ```
 
 14. Add a second fieldset in the same form. This time give it a `legend` of `Billing Address`.
+
+15. Copy in the fields from the previous example. **Use your judgment to decide** what you will need to change in your existing code so that your `id` and `name` attributes remain unique. E.g. `deliveryStreet` and `billingStreet`. Do this for all applicable fields.
+
+16. Consider, what could you do to make your `datalist` implementation more DRY?
