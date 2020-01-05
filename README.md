@@ -139,3 +139,14 @@ We're going to separate both addresses with `fieldset` elements, so the first st
 15. Copy in the fields from the previous example. **Use your judgment to decide** what you will need to change in your existing code so that your `id` and `name` attributes remain unique. E.g. `deliveryStreet` and `billingStreet`. Do this for all applicable fields.
 
 16. Consider, what could you do to make your `datalist` implementation more DRY?
+
+## Part 4: Responsive styling
+
+17. Let's create some containers for the elements that we want to appear inline. Add a `div` with the class `inline-container` around the following pairs of elements (in both fieldsets):
+
+- first + last name
+- street + number
+- city + postcode
+- state + country
+
+**When adding containers, remember to double-check your indentation**
