@@ -156,3 +156,5 @@ Let's start with big-picture layout.
 18. Link to [normalize.css](https://necolas.github.io/normalize.css/8.0.1/normalize.css) and also start your own style sheet.
 
 19. With one ruleset (one pair of curly braces), target the `input` and `select` elements and give them a `width` of `100%`.
+
+20. Make every `.inline-container` a flex container. **Use one shorthand property** to define a `flex-direction` of `row` and a `flex-wrap` of `wrap`.
