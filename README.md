@@ -159,7 +159,7 @@ We're going to separate both addresses with `fieldset` elements, so the first st
 - city + postcode
 - state + country
 
-4. Link to [normalize.css](https://necolas.github.io/normalize.css/8.0.1/normalize.css) and also start your own style sheet.
+4. Link to [normalize.css](https://necolas.github.io/normalize.css/8.0.1/normalize.css) and also start your own style sheet by giving all elements a `box-sizing` value of `border-box`.
 
 5. With one ruleset (one pair of curly braces), target the `input` and `select` elements and give them a `width` of `100%`.
 
