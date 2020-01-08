@@ -2,6 +2,11 @@
 
 In this example, we'll create a form that a customer can use to update their delivery and billing addresses.
 
+Here are the mockups of how it'll look:
+
+![Mockup of mobile version](./mobile.png)
+![Mockup of desktop version](./desktop.png)
+
 Keep a browser window open alongside your code as you go.
 
 ## Part 1: Form structure
