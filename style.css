@@ -8,6 +8,10 @@ html {
     color: #321313;
 }
 
+h1 {
+    padding-left: 2rem;
+}
+
 .form-container {
     max-width: 40rem;
     margin: 0 auto;
