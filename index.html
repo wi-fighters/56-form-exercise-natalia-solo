@@ -1,16 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
     <title>Form</title>
 </head>
+
 <body>
     <h1>Form</h1>
 
-    <!-- Replace this comment with your code -->
+    <h2>Update Address Details</h2>
+
+    <form action="#">
+        <fieldset>
+            <legend>Delivery Address</legend>
+
+            <label for="first-name">First name</label>
+            <input type="text" name="first-name" value="Maggi" id="first-name" placeholder="Kenny">
+
+            <label for="last-name">Last name</label>
+            <input type="text" name="last-name" value="Simpson" id="last-name" placeholder="Last name">
+
+
+            <label for="company">Company</label>
+            <input type="text" name="company" value="The Simpson" id="company" placeholder="Company">
+
+            <label for="street">Street</label>
+            <input type="text" name="street" value="Evergreen Terrace" id="street" placeholder="Street">
+
+            <label for="number">Number</label>
+            <input type="text" name="number" value="758" id="number" placeholder="Number">
+
+            <label for="city">City</label>
+            <input type="text" name="city" value="Springfield" id="city" placeholder="City">
+
+            <label for="postcode">Postcode</label>
+            <input type="text" name="postcode" value="58008" id="postcode" placeholder="Postcode">
+
+            <label for="">State / Region</label>
+            <input type="text" name="state" value="Oregon" id="state" placeholder="State">
+
+            <label for="country">Country</label>
+            <select>
+                <option value="-- choose one --">-- choose one --</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="LA">Louisiana</option>
+                <option value="NY">New York</option>
+                <option value="OR">Oregon</option>
+                <option value="TX">Texas</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Billing Address</legend>
+
+            <label for="first-name">First name</label>
+            <input type="text" name="first-name" value="Maggi" id="first-name" placeholder="Kenny">
+
+            <label for="last-name">Last name</label>
+            <input type="text" name="last-name" value="Simpson" id="last-name" placeholder="Last name">
+
+
+            <label for="company">Company</label>
+            <input type="text" name="company" value="The Simpson" id="company" placeholder="Company">
+
+            <label for="street">Street</label>
+            <input type="text" name="street" value="Evergreen Terrace" id="street" placeholder="Street">
+
+            <label for="bill-number">Number</label>
+            <input type="text" name="number" value="750" id="bill-number" placeholder="Number">
+
+            <label for="city">City</label>
+            <input type="text" name="city" value="Springfield" id="city" placeholder="City">
+
+            <label for="postcode">Postcode</label>
+            <input type="text" name="postcode" value="58008" id="postcode" placeholder="Postcode">
+
+            <label for="state">State / Region</label>
+            <input type="text" name="state" value="Oregon" id="state" placeholder="State">
+
+            <label for="country">Country</label>
+            <select>
+                <option value="-- choose one --">-- choose one --</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="LA">Louisiana</option>
+                <option value="NY">New York</option>
+                <option value="OR">Oregon</option>
+                <option value="TX">Texas</option>
+            </select>
+        </fieldset>
+
+        <input type="submit" name="submit" value="Update Address Details" id="submit">
+
+    </form>
 
 </body>
+
 </html>
